@@ -1,0 +1,54 @@
+DB:quickshopee
+table:category
+      categoryid
+      categoryname
+      status
+      icon
+
+table:subcategory
+      subcategoryid pk ai
+      categoryid
+      subcategoryname
+      status
+      icon
+
+table:product
+      productid pk ai
+      categoryid
+      subcategoryid
+      productname
+      description
+      status
+      picture
+table:productlist
+      categoryid
+      subcategoryid
+      productid
+      productlistid pk
+      productlistname 
+      description
+      rate
+      offer
+      weight dd ltrs kgs piece
+      stock
+      status dd 
+      picture
+
+Banners:
+   bannerid
+   banners
+   status
+productpictures
+productpictureid
+categoryid
+subcategoryid
+productid
+productlistid
+pictures   
+
+
+
+
+      
+
+
